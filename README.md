@@ -1,35 +1,35 @@
-# 🎖️ Gestor de Batallón - Sistema de Administración Vehicular
+# 🎖️ Battalion Manager - Vehicle & Mission Management System
 
-Sistema desarrollado en **Java** diseñado para centralizar y automatizar el control de vehículos y misiones dentro de un batallón militar. El proyecto implementa conceptos avanzados de **Programación Orientada a Objetos (POO)** y garantiza la integridad de los datos mediante pruebas unitarias.
+A **Java-based** management system designed to centralize and automate the control of military vehicles and tactical missions. This project implements core **Object-Oriented Programming (OOP)** principles and ensures data reliability through rigorous unit testing.
 
-## 🚀 Características Principales
+## 🚀 Key Features
 
-El sistema permite gestionar diferentes tipos de unidades con atributos específicos:
-* **Gestión de Vehículos:** Registro, edición, eliminación y consulta de:
-    * 🚚 *Transporte de Tropas* (Capacidad de soldados).
-    * 🛡️ *Vehículos Blindados* (Nivel de blindaje).
-    * 🚑 *Vehículos de Apoyo* (Funciones logísticas, médicas o de comunicación).
-* **Control Operativo:** Actualización de kilometraje, estados operativos (Disponible, En Misión, Mantenimiento) y contador de misiones.
-* **Misiones:** Registro detallado de misiones, ubicación y personal asignado.
-* **Filtros Inteligentes:** Reporte automático de vehículos con alta operatividad (más de 50 misiones).
+The system manages diverse military units with specialized attributes:
+* **Vehicle Management:** Full CRUD (Create, Read, Update, Delete) operations for:
+    * 🚚 *Troop Transports* (Soldier capacity tracking).
+    * 🛡️ *Armored Vehicles* (Armor level specifications).
+    * 🚑 *Support Vehicles* (Logistics, Medical, and Communication functions).
+* **Operational Control:** Real-time updates for mileage, operational status (Available, On Mission, Maintenance), and mission counters.
+* **Mission Tracking:** Detailed logs of mission IDs, dates, locations, assigned personnel, and deployed vehicles.
+* **Advanced Filtering:** Automatic reporting of high-experience units (vehicles with over 50 completed missions).
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tech Stack
 
-* **Lenguaje:** Java 17+
-* **Interfaz de Usuario:** Swing (`JOptionPane`) para interacción por ventanas.
-* **Arquitectura:** POO (Encapsulamiento, Herencia y Polimorfismo).
-* **Testing:** JUnit 5 para pruebas unitarias de la lógica de negocio.
+* **Language:** Java 17+
+* **User Interface:** Swing (`JOptionPane`) for interactive dialog-based GUI.
+* **Architecture:** OOP (Encapsulation, Inheritance, and Polymorphism).
+* **Testing:** JUnit 5 for unit testing business logic and model constraints.
 
-## 🧪 Pruebas Unitarias
+## 🧪 Unit Testing
 
-Para asegurar la fiabilidad del sistema, se implementaron pruebas sobre cada clase del modelo (`Batallon`, `Vehiculo`, `Mision`). Se validaron casos como:
-- Registro exitoso de vehículos.
-- Lógica de edición y actualización de estados.
-- Correcto funcionamiento de los contadores de misiones.
-- Validación de IDs únicos.
+To ensure system stability, unit tests were developed for every class within the model (`Battalion`, `Vehicle`, `Mission`). Key validations include:
+- Successful vehicle registration and ID uniqueness.
+- Accurate editing logic and status transitions.
+- Mission counter integrity.
+- Edge case handling for operational status updates.
 
-## 📋 Requisitos e Instalación
+## 📋 Installation & Usage
 
-1. Clonar el repositorio:
+1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/tu-usuario/nombre-repo.git](https://github.com/tu-usuario/nombre-repo.git)
+   git clone [https://github.com/your-username/repository-name.git](https://github.com/your-username/repository-name.git)
